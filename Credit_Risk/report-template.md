@@ -1,6 +1,6 @@
 # Overview of the Analysis
 
-* The purpose of this analysis is to develop a supervised machine learning model that predicts whether a loan is classified as healthy (class 0) or high-risk (class 1). We will utilize logistic regression as our binary classification method. The analysis focuses on financial data, specifically examining factors such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. Our objective is to determine the loan status, categorizing it as either a healthy loan (0) or a high-risk loan (1).
+The purpose of this analysis is to develop a supervised machine learning model that predicts whether a loan is classified as healthy (class 0) or high-risk (class 1). We will utilize logistic regression as our binary classification method. The analysis focuses on financial data, specifically examining factors such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. Our objective is to determine the loan status, categorizing it as either a healthy loan (0) or a high-risk loan (1).
 
 
 # Step 1: Split the Data into Training and Testing Sets
@@ -40,7 +40,7 @@
 
 ## Summary
 
-* The logistic regression model performs very well in predicting healthy loans (class 0), achieving a precision of 1.00 and a recall of 0.99. In contrast, the model's performance for risky loans (class 1) is still solid, with a precision of 0.85 and a recall of 0.95.
+The logistic regression model performs very well in predicting healthy loans (class 0), achieving a precision of 1.00 and a recall of 0.99. In contrast, the model's performance for risky loans (class 1) is still solid, with a precision of 0.85 and a recall of 0.95.
 
 The lower precision and recall for predicting risky loans can be attributed to our imbalanced dataset; the support for class 1 consists of only 619 instances, which is significantly lower compared to the support for class 0. This lack of data points for high-risk loans limits the model's ability to learn effectively. To improve predictions for high-risk loans, it would be beneficial to include more examples of this type in the training dataset.
 
