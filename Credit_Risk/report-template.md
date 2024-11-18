@@ -1,4 +1,4 @@
-## Overview of the Analysis
+# Overview of the Analysis
 
 * The purpose of this analysis is to develop a supervised machine learning model that predicts whether a loan is classified as healthy (class 0) or high-risk (class 1). We will utilize logistic regression as our binary classification method. The analysis focuses on financial data, specifically examining factors such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. Our objective is to determine the loan status, categorizing it as either a healthy loan (0) or a high-risk loan (1).
 
