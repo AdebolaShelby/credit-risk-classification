@@ -1,11 +1,9 @@
 # Credit Risk Classification
-* In this Challenge, I used various techniques to train and evaluate a model based on loan risk using a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
-* This Challenge are divided into the following subsections:
+# Overview of the Analysis
 
-    * Split the Data into Training and Testing Sets
-    * Create a Logistic Regression Model with the Original Data
-    * Write a Credit Risk Analysis Report
+The purpose of this analysis is to develop a supervised machine learning model that predicts whether a loan is classified as healthy (class 0) or high-risk (class 1). We will utilize logistic regression as our binary classification method. The analysis focuses on financial data, specifically examining factors such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. Our objective is to determine the loan status, categorizing it as either a healthy loan (0) or a high-risk loan (1).
+
 
 # Step 1: Split the Data into Training and Testing Sets
 
@@ -27,19 +25,6 @@
 
     * Print the classification report.
 
-4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
-
-# Step 3: Write a Credit Risk Analysis Report
-
-* Write a brief report that includes a summary and analysis of the performance of the machine learning models that was used. 
-
-    * An overview of the analysis: Explain the purpose of this analysis.
-
-    * The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
-
-    * A summary: Summarize the results from the machine learning model. Include the justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
-
-
 # Results
 
 * Logistic Regression Model Accuracy, Precision, and Recall scores.
@@ -48,16 +33,16 @@
 
     * Precision
 
-        * Healthy Loan (class 0): 1.00
-        * High-Risk Loan (class 1): 0.85
+        * Healthy Loan (class 0): 1.00 or 100%
+        * High-Risk Loan (class 1): 0.85 or 85%
     * Recall
 
-        * Healthy Loan (class 0): 0.99
-        * High-Risk Loan (class 1): 0.95
+        * Healthy Loan (class 0): 0.99 or 99%
+        * High-Risk Loan (class 1): 0.95 or 95%
 
 # Summary
 
-* The logistic regression model performs very well in predicting healthy loans (class 0), achieving a precision of 1.00 and a recall of 0.99. In contrast, the model's performance for risky loans (class 1) is still solid, with a precision of 0.85 and a recall of 0.95.
+The logistic regression model performs very well in predicting healthy loans (class 0), achieving a precision of 1.00 and a recall of 0.99. In contrast, the model's performance for risky loans (class 1) is still solid, with a precision of 0.85 and a recall of 0.95.
 
 The lower precision and recall for predicting risky loans can be attributed to our imbalanced dataset; the support for class 1 consists of only 619 instances, which is significantly lower compared to the support for class 0. This lack of data points for high-risk loans limits the model's ability to learn effectively. To improve predictions for high-risk loans, it would be beneficial to include more examples of this type in the training dataset.
 
