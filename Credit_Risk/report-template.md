@@ -31,12 +31,12 @@ The purpose of this analysis is to develop a supervised machine learning model t
 
     * Precision
 
-        * Healthy Loan (class 0): 1.00
-        * High-Risk Loan (class 1): 0.85
+        * Healthy Loan (class 0): 1.00 or 100%
+        * High-Risk Loan (class 1): 0.85 or 85%
     * Recall
 
-        * Healthy Loan (class 0): 0.99
-        * High-Risk Loan (class 1): 0.95
+        * Healthy Loan (class 0): 0.99 or 99%
+        * High-Risk Loan (class 1): 0.95 or 95%
 
 ## Summary
 
